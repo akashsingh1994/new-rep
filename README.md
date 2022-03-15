@@ -26,4 +26,7 @@ This is a API and microservices based Demo node application which contains separ
 
 ## Project 5
 * task 1 : Create jenkins CD jobs to host the application on a minikube environment.
-* task 2 : Create a dev environment for the application.
+* task 2 : Create a dev environment for the application. In this environment the replicas of frontend are 10 and backend are 10 and one mysql database. 
+
+## Project 6
+* task 1 : update the virsion 2 of the application on the dev environment using k8s menifest file with the rolling update strategy. Make sure the minReadySeconds will be 10 sec and the maxUnavailable pods will be 2 and maxSurge will be 2.
