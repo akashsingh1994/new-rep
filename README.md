@@ -22,11 +22,15 @@ This is a API and microservices based Demo node application which contains separ
 ## Project 4
 * task 1 : Create manifest files to host the application on minikube(k8s). Create seprate deployment and services for frontend, backend and mysql servers.
 * task 2 : Host the application on minikube locally.
-* task 3 : Make a new github repository and push the yamls on github repository.
+* task 3 : Replicas of frontend are 10 and backend are 10 and one mysql database.
+* task 4 : Make a new github repository and push the yamls on github repository.
 
 ## Project 5
 * task 1 : Create jenkins CD jobs to host the application on a minikube environment.
-* task 2 : Create a dev environment for the application. In this environment the replicas of frontend are 10 and backend are 10 and one mysql database. 
 
 ## Project 6
-* task 1 : update the virsion 2 of the application on the dev environment using k8s menifest file with the rolling update strategy. Make sure the minReadySeconds will be 10 sec and the maxUnavailable pods will be 2 and maxSurge will be 2.
+* task 1 : clone the new version of the application v2 from the github repo 
+* task 2 : Push the applcation in new branch named Dev
+* task 3 : Create a dev environment for the application.
+* task 4 : Update the virsion 2 of the application on the dev environment using k8s menifest file with the rolling update strategy. Make sure the minReadySeconds will be 10 sec and the maxUnavailable pods will be 2 and maxSurge will be 2.
+* task 5 : If the application is updated with no downtime than update the application version v2  
