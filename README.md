@@ -33,4 +33,4 @@ This is a API and microservices based Demo node application which contains separ
 * task 2 : Push the applcation in new branch named Dev
 * task 3 : Create a dev environment for the application.
 * task 4 : Update the virsion 2 of the application on the dev environment using k8s menifest file with the rolling update strategy. Make sure the minReadySeconds will be 10 sec and the maxUnavailable pods will be 2 and maxSurge will be 2.
-* task 5 : If the application is updated with no downtime than update the application version v2  
+* task 5 : If the application is updated with no downtime than update the application version v2 by merging the brance on master.
