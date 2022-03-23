@@ -1,4 +1,4 @@
-## Time : 3+1 days (From Project 1-4)
+## Time : 5 days (From Project 1-6)
 
 # node-application
 This is a API and microservices based Demo node application which contains separate Frontend Backend and the database used is mysql. 
@@ -31,7 +31,7 @@ This is a API and microservices based Demo node application which contains separ
 
 ## Project 6
 * task 1 : clone the new version of the application v2 from the github repo https://github.com/sh-cmd/node-project-giit-v2.git .
-* task 2 : Push the applcation in new branch named Dev
+* task 2 : Push the application in new branch named Dev
 * task 3 : Create a dev environment for the application.
 * task 4 : Update the virsion 2 of the application on the dev environment using k8s menifest file with the rolling update strategy. Make sure the minReadySeconds will be 10 sec and the maxUnavailable pods will be 2 and maxSurge will be 2.
 * task 5 : If the application is updated with no downtime than update the application version v2 by merging the branch on master.
