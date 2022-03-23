@@ -5,6 +5,7 @@ This is a API and microservices based Demo node application which contains separ
 
 ## Project 1 
 * task 1 : Go through the code of the application. understand about the ports to expose to connect the frontend backend and the database mysql.
+Note : Go through the code and understand about the port on which applications have been exposed .To establish successful connections make sure mysql container should get ready before the backend container , as backend will work only when it gets connected to mysql container
 * task 2 : Run the application in local environment and check the connectivity with the database.
 * task 3 : Create a repository on your github account and push the code there using cli.
 
