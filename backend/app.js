@@ -7,6 +7,11 @@ const cors = require('cors')
 const app = express();
 app.use(cors())
 
+
+app.get("/", function (req,res) {
+	res.sendFile(__dirname + "/index.html");
+});
+
 // const corsOptions = {
 //   origin: "http://localhost:8000"
 // };
